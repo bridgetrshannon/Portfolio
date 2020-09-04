@@ -3,11 +3,13 @@ img {
     padding: 10px;
 }
 body {
-    background: gray;
+    background: lightgray;
 }
 
 .container {
     background: white
 }
 
-@media screen 
+@media screen {
+
+}
