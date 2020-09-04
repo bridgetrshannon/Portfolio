@@ -1,3 +1,13 @@
-.background-color {
-    background
+img {
+    margin: auto;
+    padding: 10px;
 }
+body {
+    background: gray;
+}
+
+.container {
+    background: white
+}
+
+@media screen 
