@@ -6,6 +6,19 @@ body {
     background: lightgray;
 }
 
+div {
+    padding: 1%;
+}
+
 .container {
-    background: white
+    background: white;
+    height: auto;
+    width: 50%;
+}
+
+.navbar-brand {
+    background: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 2%;
 }
