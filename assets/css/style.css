@@ -18,7 +18,15 @@ div {
 
 .navbar-brand {
     background: teal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 2%;
+    color: white;
 }
+
+/* Added id to change font color from black to white  */
+ #navbar-brand {
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 30px;
+ }
