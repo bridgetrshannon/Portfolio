@@ -12,7 +12,38 @@ h1 {
 
 footer {
     background-color: grey;
-    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    margin-top: 21%;
+    color: white;
+     /* Added border-top to get teal line at the top of footer */
+    border-top: 10px solid teal;
+}
+
+.footer-2 {
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    margin-top: 2%;
+    color: white;
+     /* Added border-top to get teal line at the top of footer */
+    border-top: 10px solid teal;
+}
+
+.footer-3 {
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    margin-top: 20%;
+    color: white;
+     /* Added border-top to get teal line at the top of footer */
+    border-top: 10px solid teal;
 }
 
 .navbar-brand {

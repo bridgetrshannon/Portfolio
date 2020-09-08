@@ -13,54 +13,53 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" id="navbar-brand" href="#">Bridget Shannon</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Added "justify-content-end" -->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <!--  Omitted "mr auto" -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <!-- Used the same pattern for the index.html file for current page -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand" id="navbar-brand" href="#">Bridget Shannon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Added "justify-content-end" -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <!--  Omitted "mr auto" -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <!-- Used the same pattern for the index.html file for current page -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Added mt-5 means margin-top, gives you a margin on the top of container -->
     <div class="container mt-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <h1>Contact</h1>
-                    <!-- Added form placeholders and types -->
-                    <form>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput">Name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput"
-                                placeholder="First and Last Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                    </form>
-                </div>
+        <div class="row">
+            <div class="col-md-9 bg-white">
+                <h1>Contact</h1>
+                <!-- Added form placeholders and types -->
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -77,5 +76,10 @@
         crossorigin="anonymous"></script>
 
 </body>
+
+<!-- Footer stays at the bottom of the page, has grey and teal in it, and copyright sign -->
+<footer class="footer-3">
+    <p>Bridget Shannon &#169;</p>
+</footer>
 
 </html>
