@@ -10,48 +10,20 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-footer {
+.footer {
     background-color: grey;
-    text-align: center;
     width: 100%;
-    position: fixed;
-    padding: 20px;
-    margin-top: 17%;
+    position: absolute;
+    text-align: center;
+    height: 60px;
     color: white;
      /* Added border-top to get teal line at the top of footer */
     border-top: 10px solid teal;
-}
-
-.col-md-9 {
-    padding: 40px;
-}
-
-.col-md-6 {
-    padding-top: 10px;
-}
-
-.footer-2 {
-    background-color: grey;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    padding: 20px;
-    margin-top: 0%;
-    color: white;
-     /* Added border-top to get teal line at the top of footer */
-    border-top: 10px solid teal;
-}
-
-.footer-3 {
-    background-color: grey;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    padding: 20px;
-    margin-top: 16%;
-    color: white;
-     /* Added border-top to get teal line at the top of footer */
-    border-top: 10px solid teal;
+    /* Added to make footer sticky resourced from: https://css-tricks.com/couple-takes-sticky-footer/ */
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* Makes space between container and the footer */
+    margin-top: 20%;
 }
 
 .navbar-brand {
@@ -79,9 +51,10 @@ footer {
     float: left;
 }
 
+/* Changed height/wide from percentages to px, didn't respond to the page getting smaller  */
 #prof-pic {
-    height: 80%;
-    width: 30%;
+    height: 250px;
+    width: 250px;
 }
 
 #portfolio-pix {
@@ -90,18 +63,26 @@ footer {
     float: left;
 }
 
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }
 
-/*
-  These rules take effect when the browser's width
-  is either 768px or less.
-
-@media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 
-    body {
-      background-color: #333;
-    }
-    /* The wrapper's width will be 600px
-    .wrapper {
-      width: 600px;
-    }
-    /* 
+  .wrapper {
+      width: 100%;
+  }
