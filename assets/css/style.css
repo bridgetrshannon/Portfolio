@@ -10,6 +10,15 @@ div {
     padding: 1%;
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: grey;
+    margin-top: 200px;
+}
+
 .container {
     background: white;
     height: auto;
@@ -24,9 +33,14 @@ div {
     color: white;
 }
 
-/* Added id to change font color from black to white  */
+/* Added id to change font color from black to white for "Bridget Shannon" on all pages  */
  #navbar-brand {
      color: white;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 30px;
  }
+
+.nav-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
