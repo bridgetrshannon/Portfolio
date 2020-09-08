@@ -18,19 +18,24 @@ footer {
 .navbar-brand {
     background: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding: 2%;
+    font-size: 30px;
+    padding: 10px;
 }
 
 /* Added id to change font color from black to white for "Bridget Shannon" on all pages  */
  #navbar-brand {
      color: white;
      font-family: Georgia, 'Times New Roman', Times, serif;
-     font-size: 30px;
+     font-size: 40px;
+     padding: 20px;
  }
 
 .nav-link {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
-
+/* Added class to photo on About page to wrap text */
+.text-wrap {
+    float: left;
+}
