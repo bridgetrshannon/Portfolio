@@ -16,10 +16,18 @@ footer {
     width: 100%;
     position: fixed;
     padding: 20px;
-    margin-top: 21%;
+    margin-top: 17%;
     color: white;
      /* Added border-top to get teal line at the top of footer */
     border-top: 10px solid teal;
+}
+
+.col-md-9 {
+    padding: 40px;
+}
+
+.col-md-6 {
+    padding-top: 10px;
 }
 
 .footer-2 {
@@ -28,7 +36,7 @@ footer {
     width: 100%;
     position: fixed;
     padding: 20px;
-    margin-top: 2%;
+    margin-top: 0%;
     color: white;
      /* Added border-top to get teal line at the top of footer */
     border-top: 10px solid teal;
@@ -40,7 +48,7 @@ footer {
     width: 100%;
     position: fixed;
     padding: 20px;
-    margin-top: 20%;
+    margin-top: 16%;
     color: white;
      /* Added border-top to get teal line at the top of footer */
     border-top: 10px solid teal;
@@ -75,6 +83,13 @@ footer {
     height: 80%;
     width: 30%;
 }
+
+#portfolio-pix {
+    margin: auto;
+    padding: 10px;
+    float: left;
+}
+
 
 /*
   These rules take effect when the browser's width
