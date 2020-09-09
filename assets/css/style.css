@@ -10,6 +10,15 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.col-md-9 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-md-6 {
+    padding-top: 20px;
+}
+
 .footer {
     background-color: grey;
     width: 100%;
