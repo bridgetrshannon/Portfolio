@@ -23,7 +23,7 @@ h1 {
     grid-row-start: 2;
     grid-row-end: 3;
     /* Makes space between container and the footer */
-    margin-top: 20%;
+    margin-top: 12%;
 }
 
 .navbar-brand {
@@ -50,6 +50,69 @@ h1 {
 .text-wrap {
     float: left;
 }
+
+/* 
+.image-text-1 {
+    position: absolute;
+    bottom: 20px;
+    left: px;
+    background-color: teal;
+    padding: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  */
+
+  /* 
+  .image-text-2 {
+    position: absolute;
+    bottom: 20px;
+    left: px;
+    background-color: teal;
+    padding: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  */
+
+  /* .image-text-3 and .image-text-4 line up with those above 
+  and below it, no need for specific classes for the others */
+  .image-text-3 {
+    position: absolute;
+    bottom: 20px;
+    left: 73px;
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  .image-text-4 {
+    position: absolute;
+    bottom: 20px;
+    left: 293px;
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  /*
+  .image-text-5 {
+    position: absolute;
+    bottom: 20px;
+    left: px;
+    background-color: teal;
+    padding: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  */
 
 /* Changed height/wide from percentages to px, didn't respond to the page getting smaller  */
 #prof-pic {
