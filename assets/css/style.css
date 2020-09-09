@@ -33,7 +33,7 @@ h1 {
     margin-top: 20px;
     height: 100px;
     color: white;
-    padding-top: 20px;
+    padding-top: 30px;
      /* Added border-top to get teal line at the top of footer */
     border-top: 10px solid teal;
     /* Added to make footer sticky resourced from: https://css-tricks.com/couple-takes-sticky-footer/ */
