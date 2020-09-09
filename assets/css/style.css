@@ -4,10 +4,15 @@ img {
 }
 body {
     background-image: url(../images/gplaypattern.png);
+    position: relative;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+    margin-bottom: 150px;
 }
 
 .col-md-9 {
@@ -22,17 +27,20 @@ h1 {
 .footer {
     background-color: grey;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     text-align: center;
-    height: 60px;
+    margin-top: 20px;
+    height: 100px;
     color: white;
+    padding-top: 20px;
      /* Added border-top to get teal line at the top of footer */
     border-top: 10px solid teal;
     /* Added to make footer sticky resourced from: https://css-tricks.com/couple-takes-sticky-footer/ */
-    grid-row-start: 2;
-    grid-row-end: 3;
+    /* grid-row-start: 2; */
+    /* grid-row-end: 3; */
     /* Makes space between container and the footer */
-    margin-top: 12%;
+    /* margin-top: 12%; */
 }
 
 .navbar-brand {
@@ -58,6 +66,10 @@ h1 {
 /* Added class to photo on About page to wrap text */
 .text-wrap {
     float: left;
+}
+
+.bg-white {
+    position: relative;
 }
 
 /* 
@@ -88,7 +100,7 @@ h1 {
 
   /* .image-text-3 and .image-text-4 line up with those above 
   and below it, no need for specific classes for the others */
-  .image-text-3 {
+  .image-text {
     position: absolute;
     bottom: 20px;
     left: 25px;
@@ -135,11 +147,11 @@ h1 {
     width: 250px;
 }
 
-#portfolio-pix {
+/* #portfolio-pix {
     margin: auto;
     padding: 10px;
     float: left;
-}
+} */
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
@@ -161,6 +173,6 @@ h1 {
   @media only screen and (min-width: 1200px) {
   }
 
-  .wrapper {
-      width: 100%;
-  }
+  /* .wrapper { */
+      /* width: 100%; */
+  
