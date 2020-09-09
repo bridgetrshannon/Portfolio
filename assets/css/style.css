@@ -82,9 +82,12 @@ h1 {
   .image-text-3 {
     position: absolute;
     bottom: 20px;
-    left: 73px;
+    left: 25px;
     background-color: teal;
-    padding: 10px;
+    padding-left: 61px;
+    padding-right: 61px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -93,9 +96,12 @@ h1 {
   .image-text-4 {
     position: absolute;
     bottom: 20px;
-    left: 293px;
+    left: 245px;
     background-color: teal;
-    padding: 10px;
+    padding-left: 61px;
+    padding-right: 61px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
