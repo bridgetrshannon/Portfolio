@@ -20,7 +20,7 @@ h1 {
     padding-bottom: 20px;
 }
 
-.col-md-6 {
+.col-md-4 {
     padding-top: 20px;
 }
 
@@ -36,11 +36,6 @@ h1 {
     padding-top: 30px;
      /* Added border-top to get teal line at the top of footer */
     border-top: 10px solid teal;
-    /* Added to make footer sticky resourced from: https://css-tricks.com/couple-takes-sticky-footer/ */
-    /* grid-row-start: 2; */
-    /* grid-row-end: 3; */
-    /* Makes space between container and the footer */
-    /* margin-top: 12%; */
 }
 
 .navbar-brand {
@@ -70,33 +65,9 @@ h1 {
 
 .bg-white {
     position: relative;
+    padding: 50px;
 }
 
-/* 
-.image-text-1 {
-    position: absolute;
-    bottom: 20px;
-    left: px;
-    background-color: teal;
-    padding: 20px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-  }
-  */
-
-  /* 
-  .image-text-2 {
-    position: absolute;
-    bottom: 20px;
-    left: px;
-    background-color: teal;
-    padding: 20px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-  }
-  */
 
   /* .image-text-3 and .image-text-4 line up with those above 
   and below it, no need for specific classes for the others */
@@ -128,23 +99,25 @@ h1 {
     font-size: 20px;
   }
 
-  /*
-  .image-text-5 {
-    position: absolute;
-    bottom: 20px;
-    left: px;
-    background-color: teal;
-    padding: 20px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-  }
-  */
-
 /* Changed height/wide from percentages to px, didn't respond to the page getting smaller  */
 #prof-pic {
     height: 250px;
     width: 250px;
+}
+
+#peckishlogo {
+height: 300px;
+width: 575px;
+}
+
+#workdayscheduler {
+    height: 300px;
+    width: 300px;
+}
+
+#passwordgenerator {
+    height: 300px;
+    width: 500px;
 }
 
   /* Extra small devices (phones, 600px and down) */
@@ -166,7 +139,3 @@ h1 {
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
   }
-
-  /* .wrapper { */
-      /* width: 100%; */
-  
