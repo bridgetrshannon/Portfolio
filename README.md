@@ -1,7 +1,13 @@
-Responsive_Portfolio
+# Portfolio
 
-Using html, CSS, and Bootstrap, I have created a responsive portfolio. When the window or screen size changes, the design is responsive and changes as well.
+## Description
+GitHub page featuring the portfolio of Bridget Shannon.
 
-I have included a Navbar with my name, About, Portfolio, and Contact. If you click on my name from any page, it will redirect to the About page. When the window or screen size changes on the Portfolio page, the images are responsive.
-
-There is a fixed footer at the bottom of each page that is also responsive to window and screen size.
+## Features
+- Displays three applications from portfolio
+![Portfolio projects and applications](./assets/images/portfoliodisplay.png)
+- User can click on the title and it will take them to the GitHub Repository of that application
+- User can click on the image and it will take them to the GitHub Page of that application
+- Able to navigate to About, Portfolio, or Contact page from any of the pages 
+- Links to GitHub and LinkedIn profiles are featured on the "About Me" page
+![Networking buttons](./assets/images/networking.png)

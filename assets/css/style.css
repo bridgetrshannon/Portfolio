@@ -18,6 +18,11 @@ h1 {
 .col-md-9 {
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 200px;
+}
+
+.col-md-12 {
+    margin-bottom: 200px;
 }
 
 .col-md-4 {
@@ -31,7 +36,7 @@ h1 {
     bottom: 0;
     text-align: center;
     margin-top: 20px;
-    height: 100px;
+    height: 80px;
     color: white;
     padding-top: 30px;
      /* Added border-top to get teal line at the top of footer */
@@ -106,18 +111,22 @@ h1 {
 }
 
 #peckishlogo {
-height: 300px;
-width: 575px;
+height: 150px;
+width: 350px;
+margin-bottom: 75px;
+margin-top: 50px;
 }
 
 #workdayscheduler {
-    height: 300px;
+    height: 275px;
     width: 300px;
 }
 
 #passwordgenerator {
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 350px;
+    margin-bottom: 25px;
+    margin-top: 50px;
 }
 
   /* Extra small devices (phones, 600px and down) */
