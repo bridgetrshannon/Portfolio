@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Contact</title>
+    <title>About Me</title>
 </head>
 
 <body>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" id="navbar-brand" href="index.html">Bridget Shannon</a>
@@ -23,30 +25,45 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <!--  Omitted "mr auto" -->
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <!-- Used the same pattern for the index.html file for current page -->
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Added mt-5 means margin-top, gives you a margin on the top of container -->
     <div class="container mt-4">
         <div class="row">
+            <!-- Added bg-white to make the container background not transparent -->
             <div class="col-md-9 bg-white">
-                <h1>Resume</h1>
-                <!-- Embedded PDF of resume -->
-                <h1>Github Profile</h1>
-                <h1>Portfolio</h1>
-                <h1>LinkedIn</h1>
+                <h1>About Me</h1>
+                <img src="assets/images/Bridget Shannon - Ireland Photo.jpg" alt="portfolio picture" class="text-wrap"
+                    id="prof-pic">
+                <p>Bridget Shannon is originally from Jacksonville, Florida. She grew up along her four siblings playing
+                    soccer and singing in choir. Bridget later went on to study Music Education at Florida State
+                    University. She has been a Middle School Chorus Teacher for the past three years.</p>
+                <p>Bridget has performed in Carnegie Hall, Ireland, England, and Wales with her collegiate choir. She is
+                    passionate about music, community, human rights, and her family. She is excited for the
+                    career change from music teacher to web developer. </p>
+                <p>When Bridget is not singing or studying for UCF Coding Bootcamp, she enjoys spending time with her
+                    fiance, Jennifer, dog, Skye, and cat, Renegade.</p>
+                <br>
+                <div>
+                    <a class="github-button" href="https://github.com/bridgetrshannon"
+                        data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large"
+                        aria-label="Follow @bridgetrshannon on GitHub">Follow @bridgetrshannon</a>
+                </div>
+                <div>
+                    <a class="btn btn-sm btn-outline-primary" href="https://www.linkedin.com/in/bridget-shannon/"
+                        role="button" id="linkedinBtn">LinkedIn</a>
+                </div>
             </div>
         </div>
     </div>
@@ -62,8 +79,11 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
+    <!-- Footer stays at the bottom of the page, has grey and teal in it, and copyright sign -->
     <footer class="footer">
-        <p>Bridget Shannon &#169;</p>
+        <div class="container">
+            <p>Bridget Shannon &#169;</p>
+        </div>
     </footer>
 </body>
 
