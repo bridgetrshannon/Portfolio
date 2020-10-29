@@ -17,7 +17,15 @@
   margin: 50px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
-  opacity: 0.8;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+.transboxPortfolio {
+  margin: 150px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.9;
   border-radius: 25px;
 }
 
@@ -43,4 +51,49 @@
 
 #prof-pic {
   height: 250px;
+  float: left;
+  margin-right: 20px;
+}
+
+#peckish-pic {
+  width: 275px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+#audiophyle-pic,
+#burger-pic,
+#readme-pic {
+  width: 275px;
+  height: 90px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+#employeetracker-pic,
+#teamprofilegenerator-pic {
+  width: 200px;
+  height: 100px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
