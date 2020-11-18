@@ -50,6 +50,14 @@ h6, nav {
   border-radius: 25px;
 }
 
+.transboxContact {
+  margin: 100px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
 .col-md-9 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -92,7 +100,7 @@ h6, nav {
   border-radius: 15px;
 }
 
-#employeetracker-pic,
+#fitnesstracker-pic,
 #teamprofilegenerator-pic {
   width: 200px;
   height: 100px;
@@ -104,6 +112,17 @@ h6, nav {
 #linkedinBtn {
   float: left;
 }
+
+#githubBtn {
+margin-left: 200px;
+margin-right:50px
+}
+
+#linkedinBtn {
+  margin-left: 200px;
+  margin-right:50px
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
