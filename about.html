@@ -10,12 +10,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;400&display=swap"
         rel="stylesheet">
-    <title>Contact</title>
+    <title>Bridget Shannon</title>
 </head>
 
-<body class="contactBackgroundImg">
-
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+<body class="aboutBackgroundImg">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Bridget Shannon</a>
@@ -26,14 +24,14 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -41,17 +39,29 @@
 
     <div class="container">
         <div class="row">
+            <!-- Added bg-white to make the container background not transparent -->
             <div class="col-md-9 transbox bg-white">
-                <div>
-                    <a class="btn btn-sm btn-outline-primary" href="https://www.linkedin.com/in/bridget-shannon/"
-                        role="button" id="linkedinBtn">LinkedIn</a>
-                </div>
-                <div>
-                    <a class="github-button" id="githubBtn" href="https://github.com/bridgetrshannon"
-                        data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large"
-                        aria-label="Follow @bridgetrshannon on GitHub">Follow @bridgetrshannon</a>
-                </div>
-                <iframe src="assets/resume.pdf" width="100%" height="500px"></iframe>
+                <h2>Meet the Developer</h2>
+                <img src="assets/images/Bridget Shannon - Ireland Photo.jpg" alt="portfolio picture" class="text-wrap"
+                    id="prof-pic">
+                <p>Bridget is a full-stack web developer leveraging music education background to build a more
+                    inviting
+                    and accessible user experience on the web. They recently earned a certificate in full stack
+                    development from the University of Central Florida, with newly developed skills in JavaScript,
+                    CSS,
+                    React.js, and responsive web design. </p>
+                <p> With previous experience as an educator, Bridget is ready
+                    to
+                    bring problem solving skills and a creative mindset to developing web applications. Their most
+                    recent project was a music search application, Audiophyle. On a team of four developers, they
+                    created an application that allows users to search for and save their favorite musical artists.
+                    This
+                    app uses MySQL, JavaScript, Node.js, Express, Bootstrap, and TheAudioDB.
+                    Bridget is looking
+                    forward
+                    to using their skills as part of a socially-conscious, quality-driven team to build better web
+                    experiences for all users. </p>
+
             </div>
         </div>
     </div>
@@ -66,10 +76,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-
-    <!-- <footer class="footer">
+    <!-- 
+    <footer class="footer">
+        <div class="container">
             <p>Bridget Shannon &#169;</p>
-        </footer> -->
+        </div>
+    </footer> -->
 </body>
 
 </html>

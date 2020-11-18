@@ -12,7 +12,12 @@ h6, nav {
 }
 
 .indexBackgroundImg {
-  background-image: url(../images/stars1.jpg);
+  background-image: url(../images/computer1.jpg);
+  background-size: 100%;
+}
+
+.aboutBackgroundImg {
+  background-image: url(../images/computer.jpg);
   background-size: 100%;
 }
 
@@ -30,7 +35,15 @@ h6, nav {
   margin-top: 100px;
   margin-left: 150px;
   margin-right: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+.transboxHome {
+  margin: 150px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
   opacity: 0.9;
