@@ -2,7 +2,9 @@
 
 ## Description
 
-GitHub page featuring the portfolio of Bridget Shannon.
+GitHub page featuring the portfolio of Bridget Shannon
+
+https://bridgetrshannon.github.io/Portfolio/
 
 ## Features
 
