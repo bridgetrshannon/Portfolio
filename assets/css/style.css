@@ -62,8 +62,29 @@ h6, nav {
   border-radius: 20px;
 }
 
+.portfolioText {
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  padding:1%;
+  border-radius: 20px;
+}
+
+.transboxPortfolio {
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 200px;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
 .transboxContact {
-  margin: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
   background-color: black;
   color: white;
   opacity: 0.9;
@@ -109,7 +130,7 @@ h6, nav {
 
 #audiophyle-pic,
 #burger-pic,
-#readme-pic {
+#assist-pic {
   width: 275px;
   height: 90px;
   margin-top: 15px;
