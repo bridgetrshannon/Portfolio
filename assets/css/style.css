@@ -2,19 +2,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6, nav {
+h1, h2, h3, h4, h5, h6, nav {
   font-family: "Oswald", sans-serif;
 }
 
 .indexBackgroundImg {
   background-image: url(../images/computer2.jpg);
-  background-size: 100%;
-  
+  background-size: 100%; 
 }
 
 .aboutBackgroundImg {
@@ -32,42 +26,33 @@ h6, nav {
   background-size: 100%;
 }
 
-.transbox {
-  margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 200px;
-  background-color: #ffffff;
-  opacity: 0.9;
-  border-radius: 25px;
-}
-
-.transboxHome {
-  opacity: 0.9;
-  border-radius: 25px;
-}
-.homeText {
-  background-color: black;
-  color: white;
-  opacity: 0.7;
-  padding:2%;
-  border-radius: 20px;
-}
-
-.aboutText {
-  background-color: black;
-  color: white;
-  opacity: 0.9;
-  padding:2%;
-  border-radius: 20px;
-}
-
 .portfolioText {
   background-color: black;
   color: white;
   opacity: 0.9;
   padding:1%;
   border-radius: 20px;
+}
+
+.transboxHome {
+margin-top: 100px;
+margin-bottom: 200px;
+background-color: black;
+color: white;
+opacity: 0.6;
+border-radius: 20px;
+}
+
+.transboxAbout {
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 200px;
+  opacity: 0.9;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  padding:2%;
 }
 
 .transboxPortfolio {
@@ -103,12 +88,6 @@ h6, nav {
   padding-bottom: 20px;
   margin-bottom: 100px;
   border-radius: 15px;
-}
-
-.col-md-4 {
-  padding-top: 20px;
-  border-radius: 15px;
-  margin-bottom: 100px;
 }
 
 #headerCenter {
