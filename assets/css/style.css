@@ -143,6 +143,26 @@ border-radius: 20px;
 
 #assistText:hover {
   opacity: 0.5;
+  text-decoration: none;
+}
+
+
+#homeText {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, #00CED1, blue 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 700ms ease;
+  text-decoration: none;
+}
+
+#homeText:hover {
+    background-position: 0 100%;
 }
 
 /* Extra small devices (phones, 600px and down) */
