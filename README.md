@@ -6,8 +6,8 @@
 
 ## Features
 
-- Displays applications and projects
+- A single page application featuring applications and projects
   - User can click on the title and it will take them to the `GitHub repository` of that application
   - User can click on the image and it will launch the deployed application
-- Able to navigate to `About`, `Portfolio`, or `Contact` page from any of the pages
-- Links to personal `GitHub` and `LinkedIn` are featured on the `Contact` page
+- Able to navigate to `About`, `Portfolio`, or `Contact` sections from any section or the navigation bar
+- Links to personal `GitHub` and `LinkedIn` are featured nn the `Contact` section
