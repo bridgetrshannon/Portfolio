@@ -162,8 +162,6 @@ border-radius: 20px;
   display: inline-block;
   overflow: hidden;
   background: linear-gradient(to right, #00FFFF, blue 50%, white 50%);
-  /* background: linear-gradient(to right, #00CED1, blue 50%, white 50%); */
-
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
